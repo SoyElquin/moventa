@@ -2,7 +2,10 @@
   "name": "moventa",
   "private": true,
   "scripts": {
-    "dev": "npx serve . -l 3000 --no-clipboard",
-    "build": "echo 'Static site, no build needed'"
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
   }
 }
